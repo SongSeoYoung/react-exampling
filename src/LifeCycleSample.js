@@ -20,7 +20,7 @@ class LifeCycleSmaple extends Component{
     return null;
   }
 
-  compoenntDidMount(){
+  componentDidMount(){
     console.log('ComponentDidMount');
   }
 
