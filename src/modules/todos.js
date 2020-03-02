@@ -1,3 +1,7 @@
+//리덕스에 관련된 코드를 모아둔 파일을 "모듈" 이라고 한다! 
+
+
+
 const ADD_TODO = 'todos/ADD_TODO'   //할 일 추가
 const TOGGLE_TODO = 'todos/TOGGLE_TODO';    //할 일 체크
 

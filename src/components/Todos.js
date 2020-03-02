@@ -1,3 +1,6 @@
+//컴포넌트 중에서 부모의 props를 받아서 쓰는 것을 "컴포넌트" 라고 한다!!
+
+
 import React, {useState} from 'react';
 
 
