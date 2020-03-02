@@ -1,6 +1,3 @@
-import { bindActionCreators } from "redux";
-import { satisfies } from "semver";
-
 const ADD_TODO = 'todos/ADD_TODO'   //할 일 추가
 const TOGGLE_TODO = 'todos/TOGGLE_TODO';    //할 일 체크
 

@@ -1,19 +1,11 @@
 import React from 'react';
+import CounterContainer from './containers/CounterContainer';
 
-const App = ({name}) => {
+const App = () => {
   return (
-    <div>Hello {name}</div>
+    <CounterContainer/>
   )
 }
-  
-
-// function App(props){
-//   return (
-//     <>
-//     <div>Hello {props.name}</div>
-//     </>
-//   )
-// }
   
 
 
