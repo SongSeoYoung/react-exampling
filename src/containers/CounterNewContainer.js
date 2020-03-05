@@ -5,7 +5,7 @@ import {increase, decrease} from '../modules/counterNew'
 
 
 function CounterNewContainer () {
-  const counter = useSelector(state => state.counter, [])
+  const number = useSelector(state=>state.number, [])
   const dispatch = useDispatch();
 
   const onIncrease = () =>{
@@ -18,7 +18,7 @@ function CounterNewContainer () {
 
   return (
     <CounterNew 
-      number={counter}
+      number={number}
       onIncrease={onIncrease}
       onDecrease={onDecrease}
     />
