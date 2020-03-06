@@ -1,5 +1,5 @@
 import React from 'react';
-import HooksUseTabs from './HooksUseTabs'
+import HooksUseEffect from './HooksUseEffect'
 
 
 
@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <HooksUseTabs />
+      <HooksUseEffect />
     </>
   )
 }
