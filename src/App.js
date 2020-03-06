@@ -1,13 +1,13 @@
 import React from 'react';
-import HooksUseInput from './HooksUseInput'
-import useInput from './HooksUseInput'
+import HooksUseTabs from './HooksUseTabs'
+
 
 
 const App = () => {
 
   return (
     <>
-      <HooksUseInput />
+      <HooksUseTabs />
     </>
   )
 }
