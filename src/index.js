@@ -8,13 +8,11 @@ import {createStore, applyMiddleware} from 'redux'
 import rooteReducer from './modules';
 import myLogger from './middlewares/myLogger'
 
-const store = createStore(rooteReducer, applyMiddleware(myLogger));
+// const store = createStore(rooteReducer, applyMiddleware(myLogger));
 
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>, 
+    <App />,
   document.getElementById('root')
 );
 
