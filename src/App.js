@@ -1,5 +1,5 @@
 import React from 'react';
-import HooksUSeClick from './HooksUseClick'
+import HooksUseConfirm from './HooksUseConfirm';
 
 
 
@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <HooksUSeClick />
+      <HooksUseConfirm/>
     </>
   )
 }
