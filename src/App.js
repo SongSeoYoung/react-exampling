@@ -1,5 +1,5 @@
 import React from 'react';
-import HooksUseTitle from './HooksUseTitle'
+import HooksUSeClick from './HooksUseClick'
 
 
 
@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <HooksUseTitle />
+      <HooksUSeClick />
     </>
   )
 }
