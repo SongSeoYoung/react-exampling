@@ -1,5 +1,5 @@
 import React from 'react';
-import HooksUseConfirm from './HooksUseConfirm';
+import HooksUSePreventLeave from './HooksUsePreventLeave';
 
 
 
@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <HooksUseConfirm/>
+      <HooksUSePreventLeave />
     </>
   )
 }
