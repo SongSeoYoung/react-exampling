@@ -1,5 +1,5 @@
 import React from 'react';
-import HooksUSePreventLeave from './HooksUsePreventLeave';
+import HooksUseBeforeLeave from './Hooks/HooksUseBeforeLeave';
 
 
 
@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <HooksUSePreventLeave />
+      <HooksUseBeforeLeave />
     </>
   )
 }
